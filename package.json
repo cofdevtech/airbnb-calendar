@@ -5,7 +5,7 @@
   "main": "./lib/native-calendar-utils.js",
   "module": "commonjs",
   "scripts": {
-    "builb": "tsc"
+    "build": "tsc"
   },
   "keywords": [
     "airbnb",
