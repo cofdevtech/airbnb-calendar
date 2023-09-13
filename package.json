@@ -1,6 +1,6 @@
 {
   "name": "native-airbnb-calendar",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Airbnb Calendar for React Native Applications with utilities for calendar control.",
   "main": "./lib/native-calendar-utils.js",
   "module": "commonjs",
