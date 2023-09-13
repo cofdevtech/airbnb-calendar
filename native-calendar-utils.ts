@@ -52,7 +52,7 @@ class NativeCalendarUtils {
     this.groupDataByDate();
   }
 
-  convertToDateFormat(date): string {
+  convertToDateFormat(date: string): string {
     return moment(date).format("YYYY-M-D");
   }
 
@@ -64,7 +64,7 @@ class NativeCalendarUtils {
     );
   }
 
-  getDaysBetweenDates(startDate: moment.Moment, endDate: moment.Moment) {
+  getDaysBetweenDates(startDate: moment.Moment, endDate: moment.Moment): Array<string> {
     var now = startDate.clone(),
       dates: Array<string> = [];
 
@@ -149,7 +149,7 @@ class NativeCalendarUtils {
   }
 
   // update date with booked status
-  addBooked(data): void | Error {
+  addBooked(data: DefaultDataType): void | Error {
     try {
       if (data.status === Status.BOOKED) {
         this.defaultData.push(data);
@@ -167,7 +167,7 @@ class NativeCalendarUtils {
   }
 
   // update date with blocked status
-  addBlocked(data): void {
+  addBlocked(data: DefaultDataType): void {
     try {
       if (data.status === Status.BLOCKED) {
         this.defaultData.push(data);
