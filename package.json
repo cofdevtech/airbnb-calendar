@@ -1,0 +1,30 @@
+{
+  "name": "native-airbnb-calendar",
+  "version": "1.0.0",
+  "description": "Airbnb Calendar for React Native Applications with utilities for calendar control.",
+  "main": "./lib/native-calendar-utils.js",
+  "module": "commonjs",
+  "scripts": {
+    "built": "tsc"
+  },
+  "keywords": [
+    "airbnb",
+    "calendar",
+    "react",
+    "native",
+    "date",
+    "range",
+    "booking",
+    "controll",
+    "management"
+  ],
+  "author": "Omkar Deshmukh <cofdevtech>",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^20.6.0",
+    "moment": "^2.29.4"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}

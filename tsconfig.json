@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "target": "ES6",
+        "module": "CommonJS",
+        "outDir": "./lib",
+        "esModuleInterop": true,
+        "lib": ["ES6", "ES2015", "DOM"],
+        "moduleResolution": "NodeNext"
+    },
+    "include": [
+        "**/*.ts",
+        "**/*.tsx"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
