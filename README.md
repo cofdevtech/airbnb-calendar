@@ -1,5 +1,20 @@
 
-## Integration
+## Airbnb-Calendar
+
+**Utilities for managing, updating, checking and representing airbnb calendar methodologies for booking/reservation based calendar representation**
+
+
+## Licensing
+
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+
+## Builds
+
+|Branch|Build Status|
+|---|---|
+|Master|[![Build to use the lib](https://github.com/cofdevtech/airbnb-calendar/actions/workflows/builder.yml/badge.svg?branch=master)](https://github.com/cofdevtech/airbnb-calendar/actions/workflows/builder.yml)|
+|Stag|[![Build to use the lib](https://github.com/cofdevtech/airbnb-calendar/actions/workflows/builder.yml/badge.svg?branch=stag)](https://github.com/cofdevtech/airbnb-calendar/actions/workflows/builder.yml)|
+|Dev|[![Build to use the lib](https://github.com/cofdevtech/airbnb-calendar/actions/workflows/builder.yml/badge.svg?branch=dev)](https://github.com/cofdevtech/airbnb-calendar/actions/workflows/builder.yml)|
 
 ### Interfaces and Types
 **Find these interfaces and type for your referrence along the codes**
