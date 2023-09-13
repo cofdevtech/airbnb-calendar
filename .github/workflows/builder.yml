@@ -2,9 +2,9 @@ name: Build to use the lib
 
 on:
   push:
-    branches: [master]
+    branches: [master, stag, dev, AC-6]
   pull_request:
-    branches: [master]
+    branches: [master, stag, dev, AC-6]
 
   workflow_dispatch:
 jobs:
