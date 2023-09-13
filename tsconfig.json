@@ -1,7 +1,7 @@
 {
     "compilerOptions": {
         "target": "ES6",
-        "module": "CommonJS",
+        "module": "NodeNext",
         "outDir": "./lib",
         "esModuleInterop": true,
         "lib": ["ES6", "ES2015", "DOM"],
